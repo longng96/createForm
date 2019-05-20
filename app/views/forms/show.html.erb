@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @form.user %>
+</p>
+
+<p>
+  <strong>Pass:</strong>
+  <%= @form.pass %>
+</p>
+
+<p>
+  <strong>Note:</strong>
+  <%= @form.note %>
+</p>
+
+<%= link_to 'Edit', edit_form_path(@form) %> |
+<%= link_to 'Back', forms_path %>
